@@ -1,16 +1,26 @@
-# mobileapp
+This Flutter app demonstrates navigation using a bottom navigation bar and a drawer, featuring three screens: SignInScreen, SignUpScreen, and CalculatorScreen. Here's a brief summary:
 
-A new Flutter project.
+Main Function: Starts the app with MyApp as the root widget.
 
-## Getting Started
+MyApp:
 
-This project is a starting point for a Flutter application.
+Stateless widget that sets up a MaterialApp with a blue theme and HomeScreen as the home page.
+HomeScreen:
 
-A few resources to get you started if this is your first Flutter project:
+Stateful widget managing the current index of selected navigation tab.
+Defines a list of screens (SignInScreen, SignUpScreen, and CalculatorScreen).
+Uses a Drawer for navigation, allowing users to select a screen from the menu.
+Uses a BottomNavigationBar for tab navigation at the bottom.
+SignInScreen:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Stateless widget providing a sign-in form with username and password fields.
+Contains a sign-in button triggering a dialog upon successful sign-in.
+SignUpScreen:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Stateless widget providing a sign-up form with name, gender, phone number, password, and confirm password fields.
+Contains a sign-up button triggering a dialog upon successful sign-up.
+CalculatorScreen:
+
+Stateful widget implementing a basic calculator.
+Manages calculator logic, including number input, operations, and clearing the display.
+Displays the result on the screen and provides buttons for digits and operations
