@@ -1,3 +1,10 @@
+  Names:    Ihimbazwe Joel Rwamamara
+  id   :    25200
+
+
+
+
+
 This Flutter app demonstrates navigation using a bottom navigation bar and a drawer, featuring three screens: SignInScreen, SignUpScreen, and CalculatorScreen. Here's a brief summary:
 
 Main Function: Starts the app with MyApp as the root widget.
